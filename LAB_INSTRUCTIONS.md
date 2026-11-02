@@ -78,7 +78,7 @@ The login use case is implemented using our CA Engine (included here for your re
 The UML Class diagram for the core classes related to the login use case are also shown below.
 The diagram was generated using IntelliJ.
 
-![The login use case core classes](images/login-with-layers.png)
+![The login use case core classes](images/login-with-layers.png) 
 
 To better understand how the view gets updated, your team may also find it useful
 to review the
@@ -145,8 +145,8 @@ The TODOs are summarized below (by file) to help your team decide how to split t
 
 `LogoutInteractor.java` (tip: refer to `ChangePasswordInteractor.java` for similar code)
 
-- [ ] TODO: save the DAO and Presenter in the instance variables.
-- [ ] TODO: implement the logic of the Logout Use Case
+- [X] TODO: save the DAO and Presenter in the instance variables.
+- [X] TODO: implement the logic of the Logout Use Case
 
 > Note: there is no input data necessary for this use case.
 
