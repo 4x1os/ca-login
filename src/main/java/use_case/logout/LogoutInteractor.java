@@ -10,6 +10,7 @@ public class LogoutInteractor implements LogoutInputBoundary {
     public LogoutInteractor(LogoutUserDataAccessInterface userDataAccessInterface,
                             LogoutOutputBoundary logoutOutputBoundary) {
         // TODO: save the DAO and Presenter in the instance variables.
+
     }
 
     @Override
