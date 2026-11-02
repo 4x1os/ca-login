@@ -106,8 +106,9 @@ public class LoggedInView extends JPanel implements ActionListener, LoggedInView
      * @param evt the ActionEvent to react to
      */
     public void actionPerformed(ActionEvent evt) {
-        // TODO: execute the logout use case through the Controller
-        System.out.println("Click " + evt.getActionCommand());
+        if (evt.getSource().equals(logOut)) {
+            logoutController.execute();
+        }
     }
 
     public void setChangePasswordController(ChangePasswordController changePasswordController) {
